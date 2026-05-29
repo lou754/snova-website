@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SNOVA — Premium Hybrid Mountain Experience</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #000;
+      overflow-x: hidden;
+    }
+
+    .glass {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .gradient-overlay {
+      background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.2));
+    }
+
+    .hero-bg {
+      background-image: url('https://images.unsplash.com/photo-1517821365201-7734f463f9dd?q=80&w=2070&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .premium-shadow {
+      box-shadow: 0 25px 60px rgba(0,0,0,0.4);
+    }
+
+    .boot-showcase {
+      perspective: 1000px;
+      animation: gentle-rotate 6s ease-in-out infinite;
+    }
+
+    @keyframes gentle-rotate {
+      0%, 100% { transform: rotateY(0deg) rotateX(0deg); }
+      50% { transform: rotateY(5deg) rotateX(2deg); }
+    }
+  </style>
+</head>
+<body class="text-white">
+
+  <!-- HERO -->
+  <section class="hero-bg relative min-h-screen flex items-center justify-center text-center px-6">
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <div class="relative z-10 max-w-5xl">
+      <h1 class="text-7xl md:text-9xl font-light tracking-[0.4em] mb-6">
+        SNOVA
+      </h1>
+
+      <p class="uppercase tracking-[0.4em] text-gray-300 mb-8 text-sm">
+        Ride Free. Feel More.
+      </p>
+
+      <h2 class="text-3xl md:text-6xl font-light leading-tight mb-8">
+        The Future of Hybrid Ski & Snowboard Boots
+      </h2>
+
+      <p class="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto mb-10">
+        Born in the mountains, SNOVA reinvents alpine comfort through hybrid ski and snowboard boots.
+        Designed for a new generation seeking freedom, premium design and technical performance.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <button class="bg-white text-black px-8 py-4 rounded-full uppercase tracking-widest text-sm hover:bg-gray-200 transition duration-300">
+          Discover Collection
+        </button>
+
+        <button class="border border-white px-8 py-4 rounded-full uppercase tracking-widest text-sm hover:bg-white hover:text-black transition duration-300">
+          Explore Technology
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="py-28 px-6 bg-black">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+
+      <div>
+        <img
+          src="https://imgur.com/placeholder1.jpg"
+          class="rounded-[36px] premium-shadow"
+          alt="SNOVA Brand Universe"
+        />
+      </div>
+
+      <div>
+        <p class="uppercase tracking-[0.3em] text-gray-500 text-sm mb-5">
+          Born In The Mountains
+        </p>
+
+        <h2 class="text-5xl md:text-6xl font-light mb-8 leading-tight">
+          A New Vision Of Alpine Movement
+        </h2>
+
+        <p class="text-gray-300 text-lg leading-relaxed mb-8">
+          SNOVA was not created in an office.
+          It was born in the snow, the cold and the mountains.
+        </p>
+
+        <p class="text-gray-400 leading-relaxed mb-8">
+          Inspired by real alpine experience, SNOVA combines futuristic aesthetics,
+          advanced comfort systems and hybrid performance technologies to create a freer mountain experience.
+        </p>
+
+        <div class="grid grid-cols-2 gap-5">
+          <div class="glass rounded-2xl p-5">
+            Lightweight Construction
+          </div>
+
+          <div class="glass rounded-2xl p-5">
+            Hybrid Ski / Snowboard DNA
+          </div>
+
+          <div class="glass rounded-2xl p-5">
+            BOA + Vibram Premium Systems
+          </div>
+
+          <div class="glass rounded-2xl p-5">
+            Ultra Premium Positioning
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="py-28 px-6 bg-[#050505]">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
+
+      <div class="glass rounded-3xl p-8 hover:bg-white/10 transition duration-300">
+        <h3 class="text-2xl mb-4 font-light">Natural Comfort</h3>
+        <p class="text-gray-400 leading-relaxed">
+          Flexible construction inspired by snowboard boots.
+        </p>
+      </div>
+
+      <div class="glass rounded-3xl p-8 hover:bg-white/10 transition duration-300">
+        <h3 class="text-2xl mb-4 font-light">Technical Precision</h3>
+        <p class="text-gray-400 leading-relaxed">
+          Responsive support for advanced ski performance.
+        </p>
+      </div>
+
+      <div class="glass rounded-3xl p-8 hover:bg-white/10 transition duration-300">
+        <h3 class="text-2xl mb-4 font-light">Hybrid Freedom</h3>
+        <p class="text-gray-400 leading-relaxed">
+          Walk naturally across mountain terrain and resorts.
+        </p>
+      </div>
+
+      <div class="glass rounded-3xl p-8 hover:bg-white/10 transition duration-300">
+        <h3 class="text-2xl mb-4 font-light">Premium Materials</h3>
+        <p class="text-gray-400 leading-relaxed">
+          Lightweight textiles and adaptive support systems.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRODUCT SECTION - BOOT SHOWCASE (MAIN HERO) -->
+  <section class="py-32 px-6 bg-gradient-to-b from-[#050505] to-black">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+
+      <div class="boot-showcase flex items-center justify-center">
+        <img
+          src="https://imgur.com/placeholder2.jpg"
+          class="rounded-[40px] premium-shadow w-full"
+          alt="SNOVA FLEXORA HYBRID Boot"
+        />
+      </div>
+
+      <div>
+        <p class="uppercase tracking-[0.3em] text-yellow-400 text-sm mb-5 font-semibold">
+          ⭐ Signature Model
+        </p>
+
+        <h2 class="text-5xl md:text-7xl font-light mb-8 leading-tight">
+          FLEXORA<br/>HYBRID
+        </h2>
+
+        <p class="uppercase tracking-[0.3em] text-gray-500 text-xs mb-6">
+          Revolutionary Hybrid Mountain Innovation
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed mb-10">
+          A revolutionary hybrid boot engineered to eliminate the discomfort of traditional ski boots while preserving technical precision, control and responsiveness. Inspired by snowboard freedom and alpine performance, FLEXORA HYBRID delivers a more natural movement experience on and off the slopes.
+        </p>
+
+        <div class="grid grid-cols-2 gap-4 mb-10">
+          <div class="glass rounded-2xl p-4 text-sm">✓ BOA Precision Fit</div>
+          <div class="glass rounded-2xl p-4 text-sm">✓ All-Mountain Hybrid</div>
+          <div class="glass rounded-2xl p-4 text-sm">✓ Carbon Shell Support</div>
+          <div class="glass rounded-2xl p-4 text-sm">✓ Adaptive Flex</div>
+          <div class="glass rounded-2xl p-4 text-sm">✓ Walk Mode Technology</div>
+          <div class="glass rounded-2xl p-4 text-sm">✓ Ultra Lightweight</div>
+        </div>
+
+        <div class="flex gap-4">
+          <button class="bg-white text-black px-8 py-4 rounded-full uppercase tracking-widest text-sm font-semibold hover:bg-gray-200 transition duration-300">
+            Pre-Order Now
+          </button>
+
+          <button class="border border-white px-8 py-4 rounded-full uppercase tracking-widest text-sm hover:bg-white hover:text-black transition duration-300">
+            Learn More
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- COLLECTION -->
+  <section class="py-28 px-6 bg-[#050505]">
+
+    <div class="text-center mb-20">
+      <p class="uppercase tracking-[0.3em] text-gray-500 text-sm mb-5">
+        SNOVA Ecosystem
+      </p>
+
+      <h2 class="text-5xl md:text-6xl font-light">
+        Premium Mountain Collection
+      </h2>
+    </div>
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+
+      <div class="relative overflow-hidden rounded-[36px] group cursor-pointer">
+        <img
+          src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1887&auto=format&fit=crop"
+          class="h-[500px] w-full object-cover group-hover:scale-105 transition duration-700"
+        />
+
+        <div class="absolute inset-0 gradient-overlay"></div>
+
+        <div class="absolute bottom-10 left-10">
+          <h3 class="text-3xl font-light">Technical Apparel</h3>
+        </div>
+      </div>
+
+      <div class="relative overflow-hidden rounded-[36px] group cursor-pointer">
+        <img
+          src="https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=1974&auto=format&fit=crop"
+          class="h-[500px] w-full object-cover group-hover:scale-105 transition duration-700"
+        />
+
+        <div class="absolute inset-0 gradient-overlay"></div>
+
+        <div class="absolute bottom-10 left-10">
+          <h3 class="text-3xl font-light">Performance Gear</h3>
+        </div>
+      </div>
+
+      <div class="relative overflow-hidden rounded-[36px] group cursor-pointer">
+        <img
+          src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1887&auto=format&fit=crop"
+          class="h-[500px] w-full object-cover group-hover:scale-105 transition duration-700"
+        />
+
+        <div class="absolute inset-0 gradient-overlay"></div>
+
+        <div class="absolute bottom-10 left-10">
+          <h3 class="text-3xl font-light">Travel Equipment</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRODUCT STORY -->
+  <section class="py-32 px-6 bg-[#050505]">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+
+      <div>
+        <p class="uppercase tracking-[0.3em] text-gray-500 text-sm mb-5">
+          Product Story
+        </p>
+
+        <h2 class="text-5xl md:text-6xl font-light mb-8 leading-tight">
+          Built For The New Generation Of Riders
+        </h2>
+
+        <p class="text-gray-300 text-lg leading-relaxed mb-8">
+          Traditional ski boots were designed for performance — but often ignored comfort.
+          SNOVA changes that philosophy.
+        </p>
+
+        <p class="text-gray-400 leading-relaxed mb-8">
+          FLEXORA HYBRID combines snowboard-inspired ergonomics, adaptive flex technology,
+          lightweight construction and premium materials to create a freer and more intuitive mountain experience.
+        </p>
+
+        <p class="text-gray-400 leading-relaxed">
+          Whether walking through alpine resorts, exploring backcountry terrain or riding all day,
+          the boot adapts naturally to the body and reduces fatigue and pressure points.
+        </p>
+      </div>
+
+      <div>
+        <img
+          src="https://imgur.com/placeholder3.jpg"
+          class="rounded-[36px] premium-shadow w-full"
+          alt="FLEXORA HYBRID"
+        />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY QUOTE -->
+  <section class="py-40 px-6 text-center bg-gradient-to-r from-[#050505] via-[#0a0a0a] to-[#050505]">
+    <div class="max-w-4xl mx-auto">
+      <p class="uppercase tracking-[0.3em] text-gray-500 text-sm mb-8">
+        Core Philosophy
+      </p>
+
+      <h2 class="text-4xl md:text-6xl font-light leading-tight text-white/90 mb-8">
+        "We believe mountain equipment should move with the body — not against it."
+      </h2>
+
+      <p class="text-gray-400 text-lg">
+        Every detail of FLEXORA HYBRID has been obsessively engineered for human-first design.
+      </p>
+    </div>
+  </section>
+
+  <!-- LOGO SECTION -->
+  <section class="py-20 px-6 bg-black border-t border-white/10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12">
+      <div class="text-center">
+        <h3 class="text-5xl tracking-[0.3em] font-light mb-2">
+          SNOVA
+        </h3>
+        <p class="text-gray-500 text-sm tracking-[0.2em]">
+          RIDE FREE. FEEL MORE.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 py-10 px-6 bg-[#000]">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+
+      <div>
+        <h3 class="text-3xl tracking-[0.3em] font-light">
+          SNOVA
+        </h3>
+
+        <p class="text-gray-500 text-sm mt-2">
+          Ride Free. Feel More.
+        </p>
+      </div>
+
+      <div class="flex gap-8 uppercase tracking-widest text-sm text-gray-400">
+        <a href="#" class="hover:text-white transition">Instagram</a>
+        <a href="#" class="hover:text-white transition">Collection</a>
+        <a href="#" class="hover:text-white transition">Technology</a>
+        <a href="#" class="hover:text-white transition">Contact</a>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto text-center text-gray-600 text-xs mt-10 pt-10 border-t border-white/5">
+      <p>© 2026 SNOVA. All rights reserved. | Premium Alpine Equipment</p>
+    </div>
+  </footer>
+
+</body>
+</html>
